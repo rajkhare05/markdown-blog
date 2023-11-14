@@ -1,0 +1,68 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 1px ;
+    width: 410px;
+    height: 410px;
+    max-width: 411px;
+    border-radius: 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) -9px 6px 12px -2px, rgba(0, 0, 0, 0.3) 4px 3px 14px -3px;
+}
+
+.card > .post-metadata {
+    display: flex;
+}
+
+.card > .timestamp {
+    /* position: absolute; */
+    background-color: white;
+    /* margin-left: 20px; */
+    /* display: none; */
+}
+
+.card > .image {
+    border-radius: 5% 5% 0 0;
+}
+
+.card > .timestamp, .card > .author {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+}
+
+.card > .author {
+    padding: 10px 0 0 14px;
+}
+
+.post-metadata> .timestamp, .post-metadata > .separator {
+    padding: 10px 0 0 7px;
+}
+
+.card > .title {
+    font-size: 20px;
+    padding: 0 0 8px 14px;
+}
+/*
+.hidden-post-body {
+    display: none;
+    position: absolute;
+    flex: none;
+    width: 389px;
+    height: 70px;
+    background-color: white;
+    // margin-top: 390px;
+    padding: 4px 4px;
+    text-align: justify;
+    font-size: 18px;
+    top: 110%;
+    transition: all .3s ease;
+    will-change: top;
+}
+
+.card:hover .hidden-post-body {
+    display: block;
+    top: 83%;
+    transition: top 3s;
+}
+*/

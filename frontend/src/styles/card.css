@@ -1,0 +1,52 @@
+.card {
+    display: flex;
+    min-width: 856px;
+    max-height: 151px;
+    max-width: 857px;
+    font-family: "Roboto","Helvetica","Arial","sans-serif";
+    height: auto;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+.card > .post-image {
+    width: 250px;
+    height: auto;
+}
+
+.card > .post-metadata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 11px;
+    gap: 8px 10px;
+}
+
+.card > .post-metadata > .title {
+    font-size: 24px;
+}
+
+.card > .post-metadata > .epigraph {
+    font-size: 16px;
+    text-align: justify;
+    color: var(--color2);
+}
+
+.card > .post-metadata > .author-and-date {
+    display: flex;
+    font-size: 14px;
+}
+
+.author, .date {
+    color: grey;
+}
+
+.card > .post-metadata > .author-and-date > .separator {
+    padding: 0 5px; 
+}
+
+.card > .post-metadata > .read-more {
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+}
+

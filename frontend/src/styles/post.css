@@ -1,0 +1,82 @@
+.post {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 20px);
+    row-gap: 10px;
+    margin-left: 19%;
+    padding-top: 20px;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+.post::-webkit-scrollbar {
+    display: none;
+}
+
+.post > .p-metadata { 
+    display: flex;
+    align-self: flex-start;
+}
+
+.post > .p-metadata > .p-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8px;
+    font-size: 17px;
+}
+
+.p-box > .p-published {
+    font-size: 14px;
+    color: var(--color2);
+}
+
+.p-box > .p-author {
+    font-weight: bold;
+}
+
+.p-metadata > .profile-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.post-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    word-spacing: 5px;
+    align-self: flex-start;
+}
+
+.cover-image {
+    max-width: 800px;
+    max-height: 400px;
+    align-self: flex-start;
+    margin: 5px 0;
+}
+
+.separator {
+    padding: none;
+}
+
+.timestamp-and-author {
+    display: flex;
+    column-gap: 5px;
+}
+
+.post-timestamp, .post-author {
+    font-size: 15px;
+    font-weight: 200;
+    color: grey;
+}
+
+.post-body > p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+    width: 800px;
+    text-align: justify;
+    line-height: 29px;
+}
+

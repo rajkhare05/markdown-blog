@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    padding: 0 7px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#navbar-main-tab {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar-profile-tab {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-tab {
+    padding: 0 15px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 22px;
+}
+

@@ -1,0 +1,13 @@
+#home {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 66px);
+    column-gap: 1%;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+.loader {
+    margin: 17% 47%;
+}
+

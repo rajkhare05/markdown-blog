@@ -1,0 +1,36 @@
+footer {
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.networks-and-links {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+}
+
+#social-networks {
+    display: flex;
+}
+
+#site-links {
+    width: 40%;
+}
+
+#site-links-row1, #site-links-row2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site-link-tab {
+    font-size: 18px;
+}
+
+#social-networks > img {
+    width: 35px;
+    height: 35px;
+}
